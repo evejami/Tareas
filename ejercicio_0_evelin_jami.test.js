@@ -1,9 +1,14 @@
 //testing
-const calulator = require("./calulator");
-test("adds 1+2 to equal 3", () => {
-  expect(calulator.sum(1, 2)).toBe(3);
+const { createMultiples } = require("./ejercicio_0_evelin_jami");
+
+test("debería dar los múltiplos del número dado", () => {
+  expect(createMultiples(5, 3)).toEqual([3, 6, 9, 12, 15]);
 });
-const resta = require("./calulator.js");
-test("adds 5-5 to equal 0", () => {
-  expect(calulator.resta(5, 5)).toBe(0);
+
+test("debería funcionar con números negativos", () => {
+  expect(createMultiples(4, -2)).toEqual([-2, -4, -6, -8]);
+});
+
+test("debería funcionar con decimales", () => {
+  expect(createMultiples(3, 2.5)).toEqual([2.5, 5, 7.5]);
 });
