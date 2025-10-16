@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1760645620245" clover="3.2.0">
+  <project timestamp="1760645620245" name="All files">
+    <metrics statements="18" coveredstatements="18" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2" elements="24" coveredelements="24" complexity="0" loc="18" ncloc="18" packages="1" files="1" classes="1"/>
+    <file name="ejercicio_2_evelin_jami.js" path="/home/usuario/05Semana/Tareas/03/ejercicio_2_evelin_jami.js">
+      <metrics statements="18" coveredstatements="18" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+      <line num="3" count="12" type="stmt"/>
+      <line num="7" count="12" type="cond" truecount="2" falsecount="0"/>
+      <line num="8" count="4" type="stmt"/>
+      <line num="9" count="4" type="stmt"/>
+      <line num="12" count="8" type="stmt"/>
+      <line num="13" count="8" type="stmt"/>
+      <line num="14" count="8" type="stmt"/>
+      <line num="15" count="24" type="stmt"/>
+      <line num="18" count="8" type="stmt"/>
+      <line num="19" count="22" type="cond" truecount="2" falsecount="0"/>
+      <line num="20" count="13" type="stmt"/>
+      <line num="21" count="40" type="stmt"/>
+      <line num="24" count="9" type="stmt"/>
+      <line num="25" count="28" type="stmt"/>
+      <line num="29" count="8" type="stmt"/>
+      <line num="30" count="24" type="stmt"/>
+      <line num="32" count="8" type="stmt"/>
+      <line num="35" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>
