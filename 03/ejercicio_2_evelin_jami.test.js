@@ -52,9 +52,9 @@ test("Tamaño incorrecto debe retornar vacio []", () => {
 });
 
 test("Tamaño incorrecto debe retornar vacio []", () => {
-  const sa = new SuperArray([1, 2, 3]);
-  const result = sa.snail(2, 2);
-  expect(result.length).toBe(0);
+  const arrayPrueba = new SuperArray([1, 2, 3]);
+  const resultado = arrayPrueba.snail(2, 2);
+  expect(resultado.length).toBe(0);
 });
 
 test("Array vacío", () => {
@@ -68,8 +68,8 @@ test("Caso original del usuario (5x4)", () => {
   const nums = [
     19, 10, 3, 7, 9, 8, 5, 2, 1, 17, 16, 14, 12, 18, 6, 13, 11, 20, 4, 15,
   ];
-  const sa = new SuperArray(nums);
-  expect(sa.snail(5, 4)).toEqual([
+  const arrayPrueba = new SuperArray(nums);
+  expect(arrayPrueba.snail(5, 4)).toEqual([
     [19, 17, 16, 15],
     [10, 1, 14, 4],
     [3, 2, 12, 20],
